@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Lexend+Deca&display=swap"
+      rel="stylesheet" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-[hsl(233,47%,7%)]  font-['Lexend Deca']">
+    <div class="min-h-screen flex flex-col items-center justify-center">
+      <div
+        class="rounded-xl flex flex-col-reverse sm:flex-row max-w-[90%] sm:max-w-[75%] bg-[hsl(244,38%,16%)]">
+        <div class="sm:w-1/2 p-8 sm:p-15 sm:pr-18">
+          <h1 class="text-[hsl(0,0%,100%)] text-center sm:text-left font-[Inter] text-3xl sm:text-4xl">
+            Get <span class="text-[hsl(277,64%,61%)]">insights</span> that help your business grow.
+          </h1>
+
+          <p class="text-[hsla(0,0%,100%,0.75)] text-xl text-center sm:text-left sm:text-base mt-5 sm:mt-7">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-10 gap-6 sm:mt-18 items-center text-center sm:text-left sm:mr-12">
+            <div>
+              <p class="text-[hsl(0,0%,100%)] font-[Inter] text-xl">10k+</p>
+              <p class="text-[hsla(0,0%,100%,0.75)] uppercase text-xs">companies</p>
+            </div>
+            <div>
+              <p class="text-[hsl(0,0%,100%)] font-[Inter] text-xl">314</p>
+              <p class="text-[hsla(0,0%,100%,0.75)] uppercase text-xs">templates</p>
+            </div>
+            <div>
+              <p class="text-[hsl(0,0%,100%)] font-[Inter] text-xl">12m+</p>
+              <p class="text-[hsla(0,0%,100%,0.75)] uppercase text-xs">queries</p>
+            </div>
+          </div>
+        </div>
+        <div class="sm:w-1/2 relative">
+          <img
+            src="images/image-header-desktop.jpg"
+            alt="Few People working on the desk"
+            class="hidden sm:inline rounded-t-xl sm:rounded-r-xl sm:rounded-t-none" />
+          <img
+            src="images/image-header-mobile.jpg"
+            alt="Few People working on the desk"
+            class="inline sm:hidden rounded-t-xl sm:rounded-r-xl" />
+          <div class="absolute inset-0 bg-[hsl(277,64%,61%)] opacity-60 mix-blend-multiply"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution items-end">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/VikashUpadhyay442" target="_blank" rel="noopener noreferrer"
+          >Vikash Upadhyay</a
+        >.
+      </p>
+    </div>
+  </body>
+</html>
