@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/VikashUpadhyay442/Product-preview-card)
-- Live Site URL: [Github Pages](https://vikashupadhyay442.github.io/Product-preview-card/)
+- Solution URL: [Github](https://github.com/VikashUpadhyay442/stats_preview)
+- Live Site URL: [Github Pages](https://vikashupadhyay442.github.io/stats_preview/)
 
 ## My process
 
